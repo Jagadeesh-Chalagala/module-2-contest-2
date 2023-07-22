@@ -1,0 +1,81 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* nav  */
+
+.navbar{
+    width: 95%;
+
+}
+
+.listOfLinks{
+    margin: 5px 20px;
+}
+
+.listOfLinks > li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 20px;
+
+}
+
+
+/* main  */
+
+main{
+    
+}
+
+.main-container{
+    width: 95%;
+    margin: 20px 0;
+}
+.banner img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.search-container{
+    margin: 20px 0;
+}
+.search{
+    margin-top: 15px;
+}
+
+.type-of-items{
+    margin:10px 0;
+
+}
+
+.type-of-items .btn{
+    margin: 0 10px ;
+}
+
+
+/* menu  */
+
+.menu-container .rating-container{
+    flex: 1;
+}
+.menu-container .menu-items{
+    flex: 3;
+}
+
+
+.card{
+    
+}
+
+
